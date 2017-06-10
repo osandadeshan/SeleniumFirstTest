@@ -10,7 +10,7 @@ public class NavigateToLoginTest {
 
         WebDriver driver;
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Osanda\\Downloads\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\src\\main\\resources\\chromedriver.exe");
         driver = new ChromeDriver();
 
         String BASE_URL = "http://newtours.demoaut.com";
